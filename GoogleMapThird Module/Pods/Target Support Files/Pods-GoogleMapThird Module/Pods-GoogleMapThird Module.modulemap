@@ -1,0 +1,6 @@
+framework module Pods_GoogleMapThird_Module {
+  umbrella header "Pods-GoogleMapThird Module-umbrella.h"
+
+  export *
+  module * { export * }
+}

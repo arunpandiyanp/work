@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5047DFA7205A71CC0019ADFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047DFA6205A71CC0019ADFD /* AppDelegate.swift */; };
+		5047DFA9205A71CC0019ADFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047DFA8205A71CC0019ADFD /* ViewController.swift */; };
+		5047DFAC205A71CC0019ADFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5047DFAA205A71CC0019ADFD /* Main.storyboard */; };
+		5047DFAE205A71CC0019ADFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5047DFAD205A71CC0019ADFD /* Assets.xcassets */; };
+		5047DFB1205A71CC0019ADFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5047DFAF205A71CC0019ADFD /* LaunchScreen.storyboard */; };
+		5047DFBC205A71CD0019ADFD /* FireGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047DFBB205A71CD0019ADFD /* FireGoogleTests.swift */; };
+		5047DFC7205A71CD0019ADFD /* FireGoogleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5047DFC6205A71CD0019ADFD /* FireGoogleUITests.swift */; };
+		5047DFD5205A72820019ADFD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5047DFD4205A72820019ADFD /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5047DFB8205A71CD0019ADFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5047DF9B205A71CC0019ADFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5047DFA2205A71CC0019ADFD;
+			remoteInfo = FireGoogle;
+		};
+		5047DFC3205A71CD0019ADFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5047DF9B205A71CC0019ADFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5047DFA2205A71CC0019ADFD;
+			remoteInfo = FireGoogle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5047DFA3205A71CC0019ADFD /* FireGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047DFA6205A71CC0019ADFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5047DFA8205A71CC0019ADFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5047DFAB205A71CC0019ADFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5047DFAD205A71CC0019ADFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5047DFB0205A71CC0019ADFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5047DFB2205A71CC0019ADFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5047DFB7205A71CC0019ADFD /* FireGoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireGoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047DFBB205A71CD0019ADFD /* FireGoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireGoogleTests.swift; sourceTree = "<group>"; };
+		5047DFBD205A71CD0019ADFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5047DFC2205A71CD0019ADFD /* FireGoogleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireGoogleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5047DFC6205A71CD0019ADFD /* FireGoogleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireGoogleUITests.swift; sourceTree = "<group>"; };
+		5047DFC8205A71CD0019ADFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5047DFD4205A72820019ADFD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5047DFA0205A71CC0019ADFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047DFB4205A71CC0019ADFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047DFBF205A71CD0019ADFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5047DF9A205A71CC0019ADFD = {
+			isa = PBXGroup;
+			children = (
+				5047DFA5205A71CC0019ADFD /* FireGoogle */,
+				5047DFBA205A71CD0019ADFD /* FireGoogleTests */,
+				5047DFC5205A71CD0019ADFD /* FireGoogleUITests */,
+				5047DFA4205A71CC0019ADFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5047DFA4205A71CC0019ADFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5047DFA3205A71CC0019ADFD /* FireGoogle.app */,
+				5047DFB7205A71CC0019ADFD /* FireGoogleTests.xctest */,
+				5047DFC2205A71CD0019ADFD /* FireGoogleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5047DFA5205A71CC0019ADFD /* FireGoogle */ = {
+			isa = PBXGroup;
+			children = (
+				5047DFA6205A71CC0019ADFD /* AppDelegate.swift */,
+				5047DFA8205A71CC0019ADFD /* ViewController.swift */,
+				5047DFAA205A71CC0019ADFD /* Main.storyboard */,
+				5047DFAD205A71CC0019ADFD /* Assets.xcassets */,
+				5047DFAF205A71CC0019ADFD /* LaunchScreen.storyboard */,
+				5047DFD4205A72820019ADFD /* GoogleService-Info.plist */,
+				5047DFB2205A71CC0019ADFD /* Info.plist */,
+			);
+			path = FireGoogle;
+			sourceTree = "<group>";
+		};
+		5047DFBA205A71CD0019ADFD /* FireGoogleTests */ = {
+			isa = PBXGroup;
+			children = (
+				5047DFBB205A71CD0019ADFD /* FireGoogleTests.swift */,
+				5047DFBD205A71CD0019ADFD /* Info.plist */,
+			);
+			path = FireGoogleTests;
+			sourceTree = "<group>";
+		};
+		5047DFC5205A71CD0019ADFD /* FireGoogleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5047DFC6205A71CD0019ADFD /* FireGoogleUITests.swift */,
+				5047DFC8205A71CD0019ADFD /* Info.plist */,
+			);
+			path = FireGoogleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5047DFA2205A71CC0019ADFD /* FireGoogle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5047DFCB205A71CD0019ADFD /* Build configuration list for PBXNativeTarget "FireGoogle" */;
+			buildPhases = (
+				5047DF9F205A71CC0019ADFD /* Sources */,
+				5047DFA0205A71CC0019ADFD /* Frameworks */,
+				5047DFA1205A71CC0019ADFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireGoogle;
+			productName = FireGoogle;
+			productReference = 5047DFA3205A71CC0019ADFD /* FireGoogle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5047DFB6205A71CC0019ADFD /* FireGoogleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5047DFCE205A71CD0019ADFD /* Build configuration list for PBXNativeTarget "FireGoogleTests" */;
+			buildPhases = (
+				5047DFB3205A71CC0019ADFD /* Sources */,
+				5047DFB4205A71CC0019ADFD /* Frameworks */,
+				5047DFB5205A71CC0019ADFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5047DFB9205A71CD0019ADFD /* PBXTargetDependency */,
+			);
+			name = FireGoogleTests;
+			productName = FireGoogleTests;
+			productReference = 5047DFB7205A71CC0019ADFD /* FireGoogleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5047DFC1205A71CD0019ADFD /* FireGoogleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5047DFD1205A71CD0019ADFD /* Build configuration list for PBXNativeTarget "FireGoogleUITests" */;
+			buildPhases = (
+				5047DFBE205A71CD0019ADFD /* Sources */,
+				5047DFBF205A71CD0019ADFD /* Frameworks */,
+				5047DFC0205A71CD0019ADFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5047DFC4205A71CD0019ADFD /* PBXTargetDependency */,
+			);
+			name = FireGoogleUITests;
+			productName = FireGoogleUITests;
+			productReference = 5047DFC2205A71CD0019ADFD /* FireGoogleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5047DF9B205A71CC0019ADFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Rk;
+				TargetAttributes = {
+					5047DFA2205A71CC0019ADFD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					5047DFB6205A71CC0019ADFD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5047DFA2205A71CC0019ADFD;
+					};
+					5047DFC1205A71CD0019ADFD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5047DFA2205A71CC0019ADFD;
+					};
+				};
+			};
+			buildConfigurationList = 5047DF9E205A71CC0019ADFD /* Build configuration list for PBXProject "FireGoogle" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5047DF9A205A71CC0019ADFD;
+			productRefGroup = 5047DFA4205A71CC0019ADFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5047DFA2205A71CC0019ADFD /* FireGoogle */,
+				5047DFB6205A71CC0019ADFD /* FireGoogleTests */,
+				5047DFC1205A71CD0019ADFD /* FireGoogleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5047DFA1205A71CC0019ADFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047DFB1205A71CC0019ADFD /* LaunchScreen.storyboard in Resources */,
+				5047DFD5205A72820019ADFD /* GoogleService-Info.plist in Resources */,
+				5047DFAE205A71CC0019ADFD /* Assets.xcassets in Resources */,
+				5047DFAC205A71CC0019ADFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047DFB5205A71CC0019ADFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047DFC0205A71CD0019ADFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5047DF9F205A71CC0019ADFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047DFA9205A71CC0019ADFD /* ViewController.swift in Sources */,
+				5047DFA7205A71CC0019ADFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047DFB3205A71CC0019ADFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047DFBC205A71CD0019ADFD /* FireGoogleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5047DFBE205A71CD0019ADFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5047DFC7205A71CD0019ADFD /* FireGoogleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5047DFB9205A71CD0019ADFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5047DFA2205A71CC0019ADFD /* FireGoogle */;
+			targetProxy = 5047DFB8205A71CD0019ADFD /* PBXContainerItemProxy */;
+		};
+		5047DFC4205A71CD0019ADFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5047DFA2205A71CC0019ADFD /* FireGoogle */;
+			targetProxy = 5047DFC3205A71CD0019ADFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5047DFAA205A71CC0019ADFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5047DFAB205A71CC0019ADFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5047DFAF205A71CC0019ADFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5047DFB0205A71CC0019ADFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5047DFC9205A71CD0019ADFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5047DFCA205A71CD0019ADFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5047DFCC205A71CD0019ADFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireGoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5047DFCD205A71CD0019ADFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireGoogle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireGoogle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5047DFCF205A71CD0019ADFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireGoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireGoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireGoogle.app/FireGoogle";
+			};
+			name = Debug;
+		};
+		5047DFD0205A71CD0019ADFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireGoogleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireGoogleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireGoogle.app/FireGoogle";
+			};
+			name = Release;
+		};
+		5047DFD2205A71CD0019ADFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireGoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireGoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireGoogle;
+			};
+			name = Debug;
+		};
+		5047DFD3205A71CD0019ADFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireGoogleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireGoogleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireGoogle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5047DF9E205A71CC0019ADFD /* Build configuration list for PBXProject "FireGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047DFC9205A71CD0019ADFD /* Debug */,
+				5047DFCA205A71CD0019ADFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5047DFCB205A71CD0019ADFD /* Build configuration list for PBXNativeTarget "FireGoogle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047DFCC205A71CD0019ADFD /* Debug */,
+				5047DFCD205A71CD0019ADFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5047DFCE205A71CD0019ADFD /* Build configuration list for PBXNativeTarget "FireGoogleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047DFCF205A71CD0019ADFD /* Debug */,
+				5047DFD0205A71CD0019ADFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5047DFD1205A71CD0019ADFD /* Build configuration list for PBXNativeTarget "FireGoogleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5047DFD2205A71CD0019ADFD /* Debug */,
+				5047DFD3205A71CD0019ADFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5047DF9B205A71CC0019ADFD /* Project object */;
+}

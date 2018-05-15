@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Buttons" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qzw-KJ-UFw">
+                                <rect key="frame" x="164" y="29" width="51" height="31"/>
+                                <connections>
+                                    <action selector="onSwitchClick:" destination="BYZ-38-t0r" eventType="valueChanged" id="8JG-bM-7jZ"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUb-Ta-ABJ">
+                                <rect key="frame" x="0.0" y="100" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="3Rd-rl-vZm">
+                                <rect key="frame" x="131" y="194" width="118" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="68I-2Z-dQR"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderMoving:" destination="BYZ-38-t0r" eventType="valueChanged" id="42d-ml-90p"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCe-ar-ln7">
+                                <rect key="frame" x="0.0" y="278" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vvf-SX-rin">
+                                <rect key="frame" x="127" y="388" width="121" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="Bjf-pk-V1Z"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wCe-ar-ln7" firstAttribute="centerX" secondItem="bUb-Ta-ABJ" secondAttribute="centerX" id="Io2-Zb-aJr"/>
+                            <constraint firstItem="vvf-SX-rin" firstAttribute="top" secondItem="wCe-ar-ln7" secondAttribute="bottom" constant="89" id="Mfz-VL-ch7"/>
+                            <constraint firstItem="3Rd-rl-vZm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="TC7-kt-Ntb"/>
+                            <constraint firstItem="wCe-ar-ln7" firstAttribute="leading" secondItem="bUb-Ta-ABJ" secondAttribute="leading" id="UF1-Id-T12"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Rd-rl-vZm" secondAttribute="trailing" constant="128" id="VCD-Jy-h4q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bUb-Ta-ABJ" secondAttribute="trailing" id="WcK-rt-nBJ"/>
+                            <constraint firstItem="bUb-Ta-ABJ" firstAttribute="top" secondItem="qzw-KJ-UFw" secondAttribute="bottom" constant="40" id="akI-yW-sSw"/>
+                            <constraint firstItem="qzw-KJ-UFw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="bK4-41-yVE"/>
+                            <constraint firstItem="bUb-Ta-ABJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dDs-JF-Wbc"/>
+                            <constraint firstItem="3Rd-rl-vZm" firstAttribute="top" secondItem="bUb-Ta-ABJ" secondAttribute="bottom" constant="73" id="e9U-lz-EBH"/>
+                            <constraint firstItem="qzw-KJ-UFw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="oGf-hW-wl2"/>
+                            <constraint firstItem="vvf-SX-rin" firstAttribute="centerX" secondItem="wCe-ar-ln7" secondAttribute="centerX" id="xOn-eR-uAN"/>
+                            <constraint firstItem="wCe-ar-ln7" firstAttribute="top" secondItem="3Rd-rl-vZm" secondAttribute="bottom" constant="55" id="yKO-ZR-dOg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="firstLabel" destination="bUb-Ta-ABJ" id="N8N-4E-ozN"/>
+                        <outlet property="label2" destination="wCe-ar-ln7" id="USn-26-4IU"/>
+                        <outlet property="mySwitch" destination="qzw-KJ-UFw" id="9MT-4T-kc5"/>
+                        <outlet property="slider" destination="3Rd-rl-vZm" id="nnm-0X-dlh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
