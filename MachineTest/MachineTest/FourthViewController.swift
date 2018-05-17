@@ -9,9 +9,29 @@
 import UIKit
 
 class FourthViewController: UIViewController {
+    var username:String!
+    var passwrd:String!
+    var gender:String!
+    var dobOne:String!
+    var eml:String!
+    var adres:String!
+    var phnn:String!
 
+    @IBOutlet weak var address: UITextView!
+    @IBOutlet weak var email: UILabel!
+    @IBOutlet weak var dob: UILabel!
+    @IBOutlet weak var phone: UILabel!
+    @IBOutlet weak var gend: UILabel!
+    @IBOutlet weak var usr: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        address.text = adres
+        email.text = eml
+        dob.text = dobOne
+        gend.text = gender
+        phone.text = phnn
+        usr.text = username
 
         // Do any additional setup after loading the view.
     }

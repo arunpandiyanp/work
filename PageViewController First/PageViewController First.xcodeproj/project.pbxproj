@@ -14,6 +14,7 @@
 		508C5B242064C2FB001E8EEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508C5B222064C2FB001E8EEF /* LaunchScreen.storyboard */; };
 		508C5B2F2064C2FB001E8EEF /* PageViewController_FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C5B2E2064C2FB001E8EEF /* PageViewController_FirstTests.swift */; };
 		508C5B3A2064C2FB001E8EEF /* PageViewController_FirstUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C5B392064C2FB001E8EEF /* PageViewController_FirstUITests.swift */; };
+		508C5B482064C580001E8EEF /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C5B472064C580001E8EEF /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		508C5B352064C2FB001E8EEF /* PageViewController FirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PageViewController FirstUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508C5B392064C2FB001E8EEF /* PageViewController_FirstUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController_FirstUITests.swift; sourceTree = "<group>"; };
 		508C5B3B2064C2FB001E8EEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		508C5B472064C580001E8EEF /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				508C5B192064C2FB001E8EEF /* AppDelegate.swift */,
 				508C5B1B2064C2FB001E8EEF /* ViewController.swift */,
+				508C5B472064C580001E8EEF /* PageViewController.swift */,
 				508C5B1D2064C2FB001E8EEF /* Main.storyboard */,
 				508C5B202064C2FB001E8EEF /* Assets.xcassets */,
 				508C5B222064C2FB001E8EEF /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508C5B482064C580001E8EEF /* PageViewController.swift in Sources */,
 				508C5B1C2064C2FB001E8EEF /* ViewController.swift in Sources */,
 				508C5B1A2064C2FB001E8EEF /* AppDelegate.swift in Sources */,
 			);

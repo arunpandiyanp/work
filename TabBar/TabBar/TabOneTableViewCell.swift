@@ -10,8 +10,14 @@ import UIKit
 
 class TabOneTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var immage: UIImageView!
+    @IBOutlet weak var label: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
+    
+        //self.immage.layer.cornerRadius = 20
+        
+        
         // Initialization code
     }
 

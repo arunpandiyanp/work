@@ -8,13 +8,33 @@
 
 import UIKit
 
-class TabThreeViewController: UIViewController {
+class TabThreeViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
+    @IBOutlet weak var tab: UITableView!
+    let imageNames = ["imageOne","imageTwo","imageThree","imageFour","imageFive","imageSix","imageSeven","imageEight"]
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
+        tab.delegate = self
+        tab.dataSource = self
+        tab.rowHeight = 200
+        
 
         // Do any additional setup after loading the view.
     }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return imageNames.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tab.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SecondTabTableViewCell
+//        print("enteredone")
+
+        return cell
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

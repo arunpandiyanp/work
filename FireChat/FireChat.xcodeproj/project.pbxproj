@@ -46,6 +46,7 @@
 		2D547FD00CCDDD1C932C4E43 /* Pods-FireChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireChatTests/Pods-FireChatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3C67553AFA541305DD63B504 /* Pods-FireChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireChatUITests/Pods-FireChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		461BED5329F7DAF4CD1F4725 /* Pods_FireChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5003A06920AAF8560071C66F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		50D9315220A95BC80081F2D4 /* FireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D9315520A95BC80081F2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D9315720A95BC80081F2D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +124,7 @@
 		50D9314920A95BC80081F2D4 = {
 			isa = PBXGroup;
 			children = (
+				5003A06920AAF8560071C66F /* Bridging-Header.h */,
 				50D9315420A95BC80081F2D4 /* FireChat */,
 				50D9316C20A95BC80081F2D4 /* FireChatTests */,
 				50D9317720A95BC80081F2D4 /* FireChatUITests */,
@@ -683,6 +685,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -698,6 +701,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.FireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

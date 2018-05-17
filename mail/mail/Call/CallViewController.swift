@@ -7,15 +7,34 @@
 //
 
 import UIKit
+import CallKit
 
 class CallViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func onCliCkCall(_ sender: Any) {
+         let alert = UIAlertController(title: "Calling", message: "........", preferredStyle:.alert)
+        let btn1 = UIAlertAction(title: "Okay", style: .default) { (alertAction) in
+            let url:NSURL = URL(string: "tel://(+917034084766)") as! NSURL
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+            }
+            else{
+                UIApplication.shared.openURL(url as URL)
+            }
+        }
+        alert.addAction(btn1)
+        self.present(alert, animated: true, completion: nil
+        )
+        
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

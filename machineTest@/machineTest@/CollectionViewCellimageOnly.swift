@@ -10,4 +10,5 @@ import UIKit
 
 class CollectionViewCellimageOnly: UICollectionViewCell {
     
+    @IBOutlet weak var imageOnly: UIImageView!
 }

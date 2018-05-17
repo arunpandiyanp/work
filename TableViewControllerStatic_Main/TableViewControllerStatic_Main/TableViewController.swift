@@ -10,8 +10,24 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
+    @IBOutlet weak var imgFour: UIImageView!
+    @IBOutlet weak var imgThree: UIImageView!
+    @IBOutlet weak var imgTwo: UIImageView!
+    @IBOutlet weak var imgONe: UIImageView!
+    @IBOutlet weak var lblone: UILabel!
+    @IBOutlet weak var lbltw: UILabel!
+    @IBOutlet weak var lblthre: UILabel!
+    @IBOutlet weak var lblfr: UILabel!
+    var images = [UIImage(named:"1.jpg"),UIImage(named:"2.jpg"),UIImage(named:"3.jpg"),UIImage(named:"4.jpg"),UIImage(named:"5.jpg"),UIImage(named:"6.jpg"),UIImage(named:"7.jpg"),UIImage(named:"8.jpg"),]
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tableView.rowHeight = 200
+        imgFour.image = images[0]
+        imgThree.image = images[1]
+        imgTwo.image = images[2]
+        imgONe.image = images[3]
+        
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -29,23 +45,26 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 4
     }
 
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
+    
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        switch indexPath.row{
+//        case 0 :
+//            let cell = tableView.dequeueReusableCell(withIdentifier: "cellOne", for: indexPath)
+//            
+//            return cell
+//        default:
+//            <#code#>
+//        }
+//    }
+    
 
     /*
     // Override to support conditional editing of the table view.

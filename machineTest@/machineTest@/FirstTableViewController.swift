@@ -9,6 +9,9 @@
 import UIKit
 
 class FirstTableViewController: UITableViewController {
+    
+    let places = ["haripad","alappuzha","pallipad","kayamkulam","kuttanad","cherukara","padanilam","vazhuthanam","poyyakkara","edathua","kainakari","champakkulam","pilappuzha","pazhavangaadi","pazhakulam","mullakkal","kumarapuram","thamallakkal","pulimkunn","mavelikkara","muttam","irattakulangara","nedumthara","vanchiyil","choorelackal","kollathuvila","aayaparambu","aanari","prayikkara"]
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,23 +32,29 @@ class FirstTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return places.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! TableViewCellOne
+        
+        cell.label.text = places[indexPath.row]
+        
+    
 
         // Configure the cell...
+//        cell.textLabel?.text = places[indexPath.row]
+        
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

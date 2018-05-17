@@ -1,0 +1,6 @@
+framework module Pods_jsonAlamofire__ {
+  umbrella header "Pods-jsonAlamofire---umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ayZ-q4-tHk">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17" y="-21"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RvE-A8-cKA">
+            <objects>
+                <viewController storyboardIdentifier="VC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7nk-UL-DEQ" customClass="ViewController" customModule="SamplePageViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cIw-L5-41x"/>
+                        <viewControllerLayoutGuide type="bottom" id="BkN-Zd-ANi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="els-pU-CUf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wbm-yl-d2i">
+                                <rect key="frame" x="16" y="70" width="288" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="IFP-Qv-zEA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jy2-OP-AfT">
+                                <rect key="frame" x="0.0" y="112" width="320" height="456"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jy2-OP-AfT" firstAttribute="leading" secondItem="els-pU-CUf" secondAttribute="leading" id="APx-h1-mk5"/>
+                            <constraint firstItem="wbm-yl-d2i" firstAttribute="top" secondItem="cIw-L5-41x" secondAttribute="bottom" constant="50" id="AnU-qO-bh7"/>
+                            <constraint firstAttribute="trailing" secondItem="wbm-yl-d2i" secondAttribute="trailing" constant="16" id="Foa-PU-3R6"/>
+                            <constraint firstItem="jy2-OP-AfT" firstAttribute="top" secondItem="wbm-yl-d2i" secondAttribute="bottom" constant="21.5" id="RfF-qF-Qqq"/>
+                            <constraint firstItem="wbm-yl-d2i" firstAttribute="leading" secondItem="els-pU-CUf" secondAttribute="leading" constant="16" id="gvM-5J-b1d"/>
+                            <constraint firstAttribute="trailing" secondItem="jy2-OP-AfT" secondAttribute="trailing" id="mlP-w0-ubl"/>
+                            <constraint firstItem="BkN-Zd-ANi" firstAttribute="top" secondItem="jy2-OP-AfT" secondAttribute="bottom" id="rY8-NZ-B3c"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgView" destination="jy2-OP-AfT" id="x0w-yH-bTM"/>
+                        <outlet property="titleLabel" destination="wbm-yl-d2i" id="BrV-hS-u6e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JXv-8J-aNj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1764" y="-27.436281859070466"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="zZT-yZ-VfX">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="ayZ-q4-tHk" customClass="PageViewController" customModule="SamplePageViewController" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VRI-1v-VqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1031" y="-27"/>
+        </scene>
+    </scenes>
+</document>

@@ -8,12 +8,28 @@
 
 import UIKit
 
-class PageViewController: UIPageViewController {
-
+class PageViewController: UIPageViewController,UIPageViewControllerDataSource {
+    
+    
+    let image:NSArray = ["1.jpg","2.jpg","3.jpg"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        <#code#>
+    }
+    
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        <#code#>
+    }
+    
+    func nextVc(Index:Int) -> ViewController {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "story") as! ViewController
+        next.imageFromNext = image[Index] as? String
+        return next
+        
     }
 
     override func didReceiveMemoryWarning() {

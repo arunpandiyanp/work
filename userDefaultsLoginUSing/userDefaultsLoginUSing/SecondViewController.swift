@@ -10,8 +10,11 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var img: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        img.image = UIImage(named:"1.jpg")
 
         // Do any additional setup after loading the view.
     }

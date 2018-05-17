@@ -10,9 +10,18 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var smSlider: UISlider!
+    @IBOutlet weak var textLabel: UILabel!
+    @IBOutlet weak var stepper: UIStepper!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
+        stepper.value = 0
+        
+        smSlider.value = Float(stepper.value)
+        
+    
         // Do any additional setup after loading the view.
     }
 
@@ -22,6 +31,20 @@ class SecondViewController: UIViewController {
     }
     
 
+    @IBAction func onClick(_ sender: UIStepper) {
+        textLabel.text = String(stepper.value)
+        smSlider.value = Float(stepper.value)
+    }
+    
+    @IBAction func sliderSelect(_ sender: UISlider) {
+        
+    }
+    
+    @IBAction func onButtonSelect(_ sender: UIButton) {
+        print("button clicked")
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "third") as! ThirdViewController
+        self.navigationController?.pushViewController(next, animated: true)
+    }
     /*
     // MARK: - Navigation
 

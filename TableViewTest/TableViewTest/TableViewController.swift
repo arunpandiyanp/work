@@ -10,8 +10,12 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
+   
+    var imageNames = ["image 1","image 2","image 3","image 4","image 5","image 6"]
+    var images = [UIImage(named: "1.jpg"),UIImage(named: "2.jpg"),UIImage(named: "3.jpg"),UIImage(named: "4.jpg"),UIImage(named: "5.jpg"),UIImage(named: "6.jpg")]
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.imageView.frame = CGRectMake(0,0,32,32)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -29,23 +33,30 @@ class TableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return imageNames.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as! TableViewCell
+//        cell.imageView?.image = images[indexPath.row]
+//        cell.textLabel?.text = imageNames[indexPath.row]
+//        cell.imageView?.clipsToBounds = true
+//        cell.imageView?.masksToBounds = false
+        cell.imgVw.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
 
-        // Configure the cell...
+        cell.label.text = imageNames[indexPath.row]
+        cell.imgVw.image = images[indexPath.row]
+        
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

@@ -10,6 +10,7 @@ import UIKit
 
 class TableViewCellTabFour: UITableViewCell {
 
+    @IBOutlet weak var labelTabFr: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

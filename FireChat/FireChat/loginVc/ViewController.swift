@@ -43,7 +43,8 @@ class ViewController: UIViewController {
                 print("failed")
                 let sccsAlert = UIAlertController(title: "Failed", message: "check username or password", preferredStyle: .alert)
                 let actnAlert = UIAlertAction(title: "Okay", style: .default, handler: { (alertaction) in
-                    self.performSegue(withIdentifier: "toDetails", sender: nil)})
+                print("Failed")
+                })
                 sccsAlert.addAction(actnAlert)
                 self.present(sccsAlert, animated: true, completion: nil)
 

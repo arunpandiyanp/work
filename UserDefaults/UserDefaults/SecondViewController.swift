@@ -10,8 +10,13 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var labelTwo: UILabel!
+    @IBOutlet weak var labelOne: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        let userd = UserDefaults.standard
+        labelOne.text = userd.value(forKey: "username") as! String
+        labelTwo.text = userd.value(forKey: "password") as! String
 
         // Do any additional setup after loading the view.
     }

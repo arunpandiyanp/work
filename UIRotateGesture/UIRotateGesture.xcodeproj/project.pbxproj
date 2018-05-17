@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E629A120808F9400882CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E629A020808F9400882CD4 /* AppDelegate.swift */; };
+		50E629A320808F9400882CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E629A220808F9400882CD4 /* ViewController.swift */; };
+		50E629A620808F9400882CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E629A420808F9400882CD4 /* Main.storyboard */; };
+		50E629A820808F9400882CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E629A720808F9400882CD4 /* Assets.xcassets */; };
+		50E629AB20808F9400882CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E629A920808F9400882CD4 /* LaunchScreen.storyboard */; };
+		50E629B620808F9500882CD4 /* UIRotateGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E629B520808F9500882CD4 /* UIRotateGestureTests.swift */; };
+		50E629C120808F9500882CD4 /* UIRotateGestureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E629C020808F9500882CD4 /* UIRotateGestureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E629B220808F9500882CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E6299520808F9400882CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E6299C20808F9400882CD4;
+			remoteInfo = UIRotateGesture;
+		};
+		50E629BD20808F9500882CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E6299520808F9400882CD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E6299C20808F9400882CD4;
+			remoteInfo = UIRotateGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50E6299D20808F9400882CD4 /* UIRotateGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIRotateGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E629A020808F9400882CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50E629A220808F9400882CD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50E629A520808F9400882CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E629A720808F9400882CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E629AA20808F9400882CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E629AC20808F9400882CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E629B120808F9500882CD4 /* UIRotateGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIRotateGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E629B520808F9500882CD4 /* UIRotateGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRotateGestureTests.swift; sourceTree = "<group>"; };
+		50E629B720808F9500882CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E629BC20808F9500882CD4 /* UIRotateGestureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIRotateGestureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E629C020808F9500882CD4 /* UIRotateGestureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIRotateGestureUITests.swift; sourceTree = "<group>"; };
+		50E629C220808F9500882CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E6299A20808F9400882CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E629AE20808F9500882CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E629B920808F9500882CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E6299420808F9400882CD4 = {
+			isa = PBXGroup;
+			children = (
+				50E6299F20808F9400882CD4 /* UIRotateGesture */,
+				50E629B420808F9500882CD4 /* UIRotateGestureTests */,
+				50E629BF20808F9500882CD4 /* UIRotateGestureUITests */,
+				50E6299E20808F9400882CD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E6299E20808F9400882CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E6299D20808F9400882CD4 /* UIRotateGesture.app */,
+				50E629B120808F9500882CD4 /* UIRotateGestureTests.xctest */,
+				50E629BC20808F9500882CD4 /* UIRotateGestureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E6299F20808F9400882CD4 /* UIRotateGesture */ = {
+			isa = PBXGroup;
+			children = (
+				50E629A020808F9400882CD4 /* AppDelegate.swift */,
+				50E629A220808F9400882CD4 /* ViewController.swift */,
+				50E629A420808F9400882CD4 /* Main.storyboard */,
+				50E629A720808F9400882CD4 /* Assets.xcassets */,
+				50E629A920808F9400882CD4 /* LaunchScreen.storyboard */,
+				50E629AC20808F9400882CD4 /* Info.plist */,
+			);
+			path = UIRotateGesture;
+			sourceTree = "<group>";
+		};
+		50E629B420808F9500882CD4 /* UIRotateGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				50E629B520808F9500882CD4 /* UIRotateGestureTests.swift */,
+				50E629B720808F9500882CD4 /* Info.plist */,
+			);
+			path = UIRotateGestureTests;
+			sourceTree = "<group>";
+		};
+		50E629BF20808F9500882CD4 /* UIRotateGestureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50E629C020808F9500882CD4 /* UIRotateGestureUITests.swift */,
+				50E629C220808F9500882CD4 /* Info.plist */,
+			);
+			path = UIRotateGestureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E6299C20808F9400882CD4 /* UIRotateGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E629C520808F9500882CD4 /* Build configuration list for PBXNativeTarget "UIRotateGesture" */;
+			buildPhases = (
+				50E6299920808F9400882CD4 /* Sources */,
+				50E6299A20808F9400882CD4 /* Frameworks */,
+				50E6299B20808F9400882CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIRotateGesture;
+			productName = UIRotateGesture;
+			productReference = 50E6299D20808F9400882CD4 /* UIRotateGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E629B020808F9500882CD4 /* UIRotateGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E629C820808F9500882CD4 /* Build configuration list for PBXNativeTarget "UIRotateGestureTests" */;
+			buildPhases = (
+				50E629AD20808F9500882CD4 /* Sources */,
+				50E629AE20808F9500882CD4 /* Frameworks */,
+				50E629AF20808F9500882CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E629B320808F9500882CD4 /* PBXTargetDependency */,
+			);
+			name = UIRotateGestureTests;
+			productName = UIRotateGestureTests;
+			productReference = 50E629B120808F9500882CD4 /* UIRotateGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50E629BB20808F9500882CD4 /* UIRotateGestureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E629CB20808F9500882CD4 /* Build configuration list for PBXNativeTarget "UIRotateGestureUITests" */;
+			buildPhases = (
+				50E629B820808F9500882CD4 /* Sources */,
+				50E629B920808F9500882CD4 /* Frameworks */,
+				50E629BA20808F9500882CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E629BE20808F9500882CD4 /* PBXTargetDependency */,
+			);
+			name = UIRotateGestureUITests;
+			productName = UIRotateGestureUITests;
+			productReference = 50E629BC20808F9500882CD4 /* UIRotateGestureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E6299520808F9400882CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Rk;
+				TargetAttributes = {
+					50E6299C20808F9400882CD4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					50E629B020808F9500882CD4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50E6299C20808F9400882CD4;
+					};
+					50E629BB20808F9500882CD4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50E6299C20808F9400882CD4;
+					};
+				};
+			};
+			buildConfigurationList = 50E6299820808F9400882CD4 /* Build configuration list for PBXProject "UIRotateGesture" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E6299420808F9400882CD4;
+			productRefGroup = 50E6299E20808F9400882CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E6299C20808F9400882CD4 /* UIRotateGesture */,
+				50E629B020808F9500882CD4 /* UIRotateGestureTests */,
+				50E629BB20808F9500882CD4 /* UIRotateGestureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E6299B20808F9400882CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E629AB20808F9400882CD4 /* LaunchScreen.storyboard in Resources */,
+				50E629A820808F9400882CD4 /* Assets.xcassets in Resources */,
+				50E629A620808F9400882CD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E629AF20808F9500882CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E629BA20808F9500882CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E6299920808F9400882CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E629A320808F9400882CD4 /* ViewController.swift in Sources */,
+				50E629A120808F9400882CD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E629AD20808F9500882CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E629B620808F9500882CD4 /* UIRotateGestureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E629B820808F9500882CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E629C120808F9500882CD4 /* UIRotateGestureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E629B320808F9500882CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E6299C20808F9400882CD4 /* UIRotateGesture */;
+			targetProxy = 50E629B220808F9500882CD4 /* PBXContainerItemProxy */;
+		};
+		50E629BE20808F9500882CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E6299C20808F9400882CD4 /* UIRotateGesture */;
+			targetProxy = 50E629BD20808F9500882CD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E629A420808F9400882CD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E629A520808F9400882CD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E629A920808F9400882CD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E629AA20808F9400882CD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E629C320808F9500882CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E629C420808F9500882CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E629C620808F9500882CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIRotateGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.UIRotateGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50E629C720808F9500882CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIRotateGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.UIRotateGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50E629C920808F9500882CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIRotateGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.UIRotateGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIRotateGesture.app/UIRotateGesture";
+			};
+			name = Debug;
+		};
+		50E629CA20808F9500882CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIRotateGestureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.UIRotateGestureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIRotateGesture.app/UIRotateGesture";
+			};
+			name = Release;
+		};
+		50E629CC20808F9500882CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIRotateGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.UIRotateGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIRotateGesture;
+			};
+			name = Debug;
+		};
+		50E629CD20808F9500882CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UIRotateGestureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realLabz.UIRotateGestureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UIRotateGesture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E6299820808F9400882CD4 /* Build configuration list for PBXProject "UIRotateGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E629C320808F9500882CD4 /* Debug */,
+				50E629C420808F9500882CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E629C520808F9500882CD4 /* Build configuration list for PBXNativeTarget "UIRotateGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E629C620808F9500882CD4 /* Debug */,
+				50E629C720808F9500882CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E629C820808F9500882CD4 /* Build configuration list for PBXNativeTarget "UIRotateGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E629C920808F9500882CD4 /* Debug */,
+				50E629CA20808F9500882CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E629CB20808F9500882CD4 /* Build configuration list for PBXNativeTarget "UIRotateGestureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E629CC20808F9500882CD4 /* Debug */,
+				50E629CD20808F9500882CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E6299520808F9400882CD4 /* Project object */;
+}

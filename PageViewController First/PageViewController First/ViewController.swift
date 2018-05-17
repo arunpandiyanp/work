@@ -9,9 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var pageIndex:Int = 0
+    var pageName:String = " "
+    var imagge:String = " "
 
+    @IBOutlet weak var labelOne: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView.image  = UIImage(named:imagge)
+        labelOne.text = pageName
+    
         // Do any additional setup after loading the view, typically from a nib.
     }
 

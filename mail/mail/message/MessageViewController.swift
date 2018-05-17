@@ -7,13 +7,33 @@
 //
 
 import UIKit
+import MessageUI
 
-class MessageViewController: UIViewController {
+class MessageViewController: UIViewController,MFMessageComposeViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
+    }
+   
+    @IBAction func onSendMessage(_ sender: Any) {
+        let alert = UIAlertController(title: "ready to send", message: "going to send", preferredStyle: .alert)
+        let btn1 = UIAlertAction(title: "OKay", style: .default) { (alertaction) in
+            if MFMessageComposeViewController.canSendText(){
+                let mesg = MFMessageComposeViewController()
+                mesg.recipients = ["+917034084766"]
+                mesg.body = "HEy there"
+                mesg.messageComposeDelegate = self
+                self.present(mesg, animated: true, completion: nil)
+            }
+        }
+        alert.addAction(btn1)
+        self.present(alert, animated: true, completion: nil)
+    }
+    func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
+        controller.dismiss(animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

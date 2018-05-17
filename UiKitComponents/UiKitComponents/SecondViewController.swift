@@ -10,8 +10,17 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    
+    @IBOutlet weak var lableone: UILabel!
+    @IBOutlet weak var segmentOne: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.lableone.text = "bh"
+        
+        
+        
+        
 
         // Do any additional setup after loading the view.
     }
@@ -21,7 +30,17 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func onSegmentClick(_ sender: UISegmentedControl) {
+        switch segmentOne.selectedSegmentIndex {
+        case 0:
+            self.lableone.text = "segment one"
+        case 1:
+            self.lableone.text = "segment two"
+        default:
+            self.lableone.text = "one"
+        }
+    }
+    
     /*
     // MARK: - Navigation
 
